@@ -26,4 +26,29 @@ An interactive attention game that challenges players to follow commands and rea
 
 ## Setup Instructions
 1. Clone the Repository
+```bash
+git clone https://github.com/linalopes/dead-alive.git
+cd dead-or-alive
+```
+
+2. Install Dependencies
+This project relies on CDN-hosted libraries (no local installation required). Ensure your internet connection is active.
+
+3. Run the Project
+To ensure the project runs smoothly, it's recommended to serve the files using a local development server. You can use http-server, a lightweight tool for this purpose or the one of your preference.
+
+```bash
+http-server --cors
+```
+Open the provided URL (usually http://localhost:8080) in your web browser.
+Allow camera permissions when prompted.
+
+---
+
+## How to Play
+1. Players stand in front of the webcam.
+2. The game randomly issues commands:
+    "Alive!": Players must stand upright.
+    "Dead!": Players must squat down.
+3. The game evaluates the players' poses and displays their status on the screen.
 
