@@ -1,0 +1,56 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;700&family=Courier+Prime:wght@400;700&display=swap');
+
+/* Root Variables for Colors */
+:root {
+  --bs-deep-purple: #22113e;
+  --bs-pink: #EA7DFF;
+  --bs-turquoise: #08f2db;
+  --bs-gray-green: #cad8d8;
+
+  /* Default Typography */
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-mono: 'Courier Prime', monospace;
+}
+
+/* General Styles */
+body {
+  font-family: var(--font-body);
+  color: var(--bs-deep-purple); /* Default text color */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+
+h4, h5, h6 {
+  font-family: var(--font-mono);
+}
+
+/* Link Styles */
+a {
+  color: var(--bs-pink);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--bs-turquoise);
+}
+
+/* Buttons */
+.btn-1 {
+    color: var(--bs-deep-purple);
+    background-color: var(--bs-pink);
+    border-color: var(--bs-pink);
+}
+.btn-1:hover {
+    color: var(--bs-deep-purple);
+    background-color: var(--bs-turquoise);
+    border-color: var(--bs-pink);
+}
+
